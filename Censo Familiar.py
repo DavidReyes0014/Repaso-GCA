@@ -4,7 +4,7 @@
 #numero de bloque y casa.
 
 
-#input se utiliza para caracteres
+#int se utiliza para caracteres
 nombre_del_padre=int 
 nombre_de_la_madre=int
 nombre_del_primer_hijo=int
@@ -14,7 +14,9 @@ numero_de_casa=int
 
 #solicitud de datos
 
-nombre_del_padre=input("Ingrese el nombre del padre: ")
+#variable = input("Texto")
+
+nombre_del_padre=input("Ingrese el nombre del padre: ") #input se utiliza para escribir el texto y guradar los datos ingresados en la variable asignada
 nombre_de_la_madre=input("Ingrese el nombre de la madre ")
 nombre_del_primer_hijo=input("Ingrese el nombre del primer hijo: ")
 nombre_del_segundo_hijo=input("Ingrese el nombre del segundo hijo: ")
